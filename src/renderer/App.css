@@ -2,21 +2,23 @@
  * @NOTE: Prepend a `~` to css file paths that are in your node_modules
  *        See https://github.com/webpack-contrib/sass-loader#imports
  */
-body {
+ body {
   position: relative;
   color: white;
   height: 100vh;
   background: linear-gradient(
     200.96deg,
-    #fedc2a -29.09%,
-    #dd5789 51.77%,
-    #7a2c9e 129.35%
+    #1e2a52 -29.09%,
+    #183d6d 51.77%,
+    #000000 129.35%
   );
   font-family: sans-serif;
-  overflow-y: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%;
 }
 
 button {
@@ -54,9 +56,38 @@ a:hover {
   text-decoration: none;
 }
 
-.Hello {
+.grid-container {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 20px 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+.mt-4 {
+  margin-top: 100px;
+}
+
+.content {
+  flex-grow: 1;
+  padding: 20px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center the content horizontally */
+  width: 100%;
+  max-width: 1200px; /* Adjust this value as needed */
+  margin: 0 auto; /* Center the content container */
+}
+
+.page-content {
+  width: 100%;
+  max-width: 800px; /* Adjust this value as needed */
+  padding: 0 20px; /* Add some padding on the sides */
+  box-sizing: border-box;
 }

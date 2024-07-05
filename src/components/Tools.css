@@ -1,0 +1,31 @@
+.tools-container {
+    padding: 20px;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .page-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .page-list li {
+    margin-bottom: 10px;
+  }
+  
+  .page-list a {
+    text-decoration: none;
+    color: #a7a7a7;
+    font-size: 18px;
+  }
+  
+  .page-list a:hover {
+    color: #007bff;
+  }

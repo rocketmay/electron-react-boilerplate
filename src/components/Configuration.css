@@ -1,0 +1,103 @@
+.configuration {
+    color: white;
+    padding: 20px;
+  }
+  
+  .configuration h1 {
+    margin-bottom: 20px;
+  }
+  
+  .config-table {
+    width: 100%;
+  }
+  
+  .config-header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 100px;
+    gap: 10px;
+    padding: 10px 0;
+    font-weight: bold;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+    margin-bottom: 10px;
+  }
+  
+  .config-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .config-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 100px;
+    gap: 10px;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .config-key,
+  .config-value {
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+    width: 100%;
+  }
+  
+  .config-key.constant-key {
+    font-weight: bold;
+    color: #2ee9f7;
+    
+  }
+  
+  .config-actions {
+    display: flex;
+    justify-content: flex-start;
+  }
+  
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+    color: white;
+    transition: color 0.3s ease;
+  }
+  
+  .icon-button:hover {
+    color: #4CAF50;
+  }
+  
+  .icon-button:last-child:hover {
+    color: #f44336;
+  }
+  
+  .config-add-item {
+    display: grid;
+    grid-template-columns: 1fr 1fr 100px;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .config-add-item input {
+    padding: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: white;
+  }
+  
+  .config-add-item .icon-button:hover {
+    color: #4CAF50;
+  }
+  .config-add-item .icon-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 28px;
+    height: 28px;
+    padding: 0;
+  }
+  
+  .config-add-item .icon-button svg {
+    width: 16px;
+    height: 16px;
+  }

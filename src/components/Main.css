@@ -1,0 +1,10 @@
+  .grid-container {
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .mt-4 {
+    margin-top: 100px;
+  }
+  
